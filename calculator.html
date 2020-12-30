@@ -1,9 +1,13 @@
-<!DOCTYPE html><html><head>
-<title>Calculator</title><meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+	<head>
+<title>Calculadora en html y JavaScript</title><meta charset="utf-8">
 <script type="text/javascript">
-
 function cube() {
-  n1.value = Math.pow(n1.value,3);
+  	n1.value = Math.pow(n1.value,3);
+	}
+function square() {
+  n1.value = n1.value * n1.value;
 }
 </script>
 </head>
@@ -11,6 +15,8 @@ function cube() {
   Number:
   <input type="text" id="n1"><p>
 
-  <button onclick="cube()"> x<sup>3</sup> </button>
+    <button onclick="square()"> x<sup>2</sup> </button>
+	<button onclick="cube()"> x<sup>3</sup> </button>
+
 </body>
 </html>
